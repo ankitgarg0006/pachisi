@@ -354,10 +354,9 @@ function buildBoard() {
   const cornerOf = { red: 'top', green: 'top', yellow: 'bot', blue: 'bot' };
   for (const color of E.COLORS) {
     const base = E.BASE[color];
-    // Plain red-cloth corner: no colour block — carries only an embroidered
-    // rosette + a small dye label so you can tell whose corner it is.
+    // Plain red-cloth corner: no colour block, no label — the seated pieces and
+    // the coloured home-arm already tell you whose corner it is.
     const d = el('div', { class: 'base ' + cornerOf[color], style: `grid-column:${base.c + 1} / span 6;grid-row:${base.r + 1} / span 6;--pc:${COLVAR[color]};` });
-    d.append(el('div', { class: 'bname' }, el('span', { class: 'bdot' }), color[0].toUpperCase() + color.slice(1)));
     d.append(el('div', { class: 'yard' }));
     // Four recessed token seats in a tidy 2×2, positioned from the SAME YARD
     // coords the tokens use — so each token sits centred in its socket.

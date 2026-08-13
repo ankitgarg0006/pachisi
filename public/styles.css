@@ -236,7 +236,7 @@ input, select { font: inherit; }
    of the four YARD coords, so every chip sits centred in its own seat. */
 .base .seat { position: absolute; width: 26%; aspect-ratio: 1; border-radius: 50%; transform: translate(-50%, -50%); z-index: 1;
   background: radial-gradient(circle at 46% 40%, color-mix(in srgb, var(--ivory) 92%, #fff), color-mix(in srgb, var(--ivory) 62%, #4a2418));
-  box-shadow: inset 0 2px 4px rgba(0,0,0,.42), inset 0 0 0 1.5px color-mix(in srgb, var(--stitch) 55%, transparent), 0 1px 0 rgba(255,255,255,.18); }
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.42), inset 0 0 0 1.5px color-mix(in srgb, var(--sc) 55%, transparent), 0 0 0 1.5px color-mix(in srgb, var(--stitch) 40%, transparent), 0 1px 0 rgba(255,255,255,.18); }
 .center { position: relative; overflow: hidden; border-radius: 3px;
   box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--brass) 60%, transparent), inset 0 0 0 3px rgba(0,0,0,.35), inset 0 3px 9px rgba(0,0,0,.45); }
 /* brass boss at the medallion's heart where finished pieces rest */

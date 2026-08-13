@@ -4,7 +4,7 @@
  * - API and WebSocket requests always go to the network (never cached)
  * © agapps
  */
-const VERSION = "cs-v9";
+const VERSION = "cs-v10";
 const CACHE = "chausar-" + VERSION;
 
 const SHELL = [

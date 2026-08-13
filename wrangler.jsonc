@@ -1,0 +1,22 @@
+{
+  // Chausar — cloth-board Ludo. Worker + Durable Objects + static-assets PWA
+  // (Cloudflare free tier). © agapps
+  "name": "chausar",
+  "main": "src/index.js",
+  "compatibility_date": "2025-07-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  },
+  "durable_objects": {
+    "bindings": [
+      { "name": "GAME", "class_name": "LudoRoom" },
+      { "name": "LOBBY", "class_name": "Lobby" }
+    ]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["LudoRoom", "Lobby"] }
+  ],
+  "observability": { "enabled": true }
+}

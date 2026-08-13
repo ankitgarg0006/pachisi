@@ -1,7 +1,7 @@
 {
-  // Chausar — cloth-board Ludo. Worker + Durable Objects + static-assets PWA
-  // (Cloudflare free tier). © agapps
-  "name": "chausar",
+  // Pachisi — cross-and-cloth race game. Worker + Durable Objects + static-assets
+  // PWA (Cloudflare free tier). © agapps
+  "name": "pachisi",
   "main": "src/index.js",
   "compatibility_date": "2025-07-01",
   "assets": {

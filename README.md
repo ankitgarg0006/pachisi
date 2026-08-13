@@ -2,7 +2,7 @@
 
 **Pachisi** — the classic Indian **cross-and-cloth race game**, the ancestor of Ludo — playable in the browser. Race all four of your pieces once around the embroidered board and home. Play online with friends, against bots, or pass-and-play on one phone. No ads, no sign-up.
 
-**▶ Play:** https://chausar.agapps.workers.dev
+**▶ Play:** https://pachisi.agapps.workers.dev
 
 ## Features
 
@@ -47,8 +47,6 @@ public/      static PWA — index.html, app.js (client), engine.js (shared rules
 src/         Durable Objects — index.js (router), room.js (LudoRoom), lobby.js (Lobby)
 wrangler.jsonc
 ```
-
-> Note: the Cloudflare Worker is still named `chausar` (the app's original name), so the deployment URL is `chausar.agapps.workers.dev`.
 
 ---
 
